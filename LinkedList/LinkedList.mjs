@@ -40,7 +40,7 @@ class LinkedList {
   }
 
   /**
-   * 3. 인덱스 삽입 - 원하는 인덱스에 데이터 삽입
+   * 3. 인덱스 삽입 - 원하는 인덱스에 데이터 삽입.
    */
   insertAt(index, data) {
     if (index > this.count || index < 0) {
@@ -72,7 +72,7 @@ class LinkedList {
   }
 
   /**
-   * 5. 인덱스 삭제 - 원하는 인덱스의 데이터 삭제
+   * 5. 인덱스 삭제 - 원하는 인덱스의 데이터 삭제.
    */
   deleteAt(index) {
     if (index >= this.count || index < 0) {
@@ -106,7 +106,7 @@ class LinkedList {
   }
 
   /**
-   * 7. 인덱스 읽기 - 원하는 인덱스의 데이터를 읽기
+   * 7. 인덱스 읽기 - 원하는 인덱스의 데이터를 읽기.
    */
   getNodeAt(index) {
     if (index >= this.count || index < 0) {

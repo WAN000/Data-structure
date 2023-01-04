@@ -51,4 +51,5 @@ list.insertLast(4);
 list.insertLast(5);
 
 let secondNode = list.getNodeAt(2);
+
 console.log(secondNode);
